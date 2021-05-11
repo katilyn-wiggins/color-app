@@ -1,10 +1,11 @@
 import React from 'react';
-import Display from '../color/Display'
+import ColorContainer from '../../containers/ColorContainer'
+
 
 export default function App() {
   return (
     <>
-      <Display color="#D412F3" /> 
+      <ColorContainer /> 
     </>
   )
 }
