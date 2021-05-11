@@ -1,8 +1,6 @@
 import React, { Component } from 'react'; 
 import Display from '../components/color/Display'; 
 
-
-
  export default class ColorContainer extends Component {
     state = {
         boxColor: '#000000',
@@ -18,11 +16,9 @@ import Display from '../components/color/Display';
         this.setState({
             prevColor: this.state.boxColor
         })
-        console.log(this.state.prevColor); 
         this.setState({ 
             boxColor: randomColor
         })
-        console.log(this.state.boxColor); 
     }
 
     render() {
